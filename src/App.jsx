@@ -1,10 +1,13 @@
-import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
+import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
 
 const App = () => {
  return (
-     <Navbar />
+    <div>
+        <Navbar />
+        <ItemListContainer saludo={"Bienvenidos a Petit Racine"}/>
+    </div>
  );
 };
 

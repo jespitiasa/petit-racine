@@ -26,3 +26,8 @@
 padding: 0 10px;
   }
 }
+
+.cartwidget{
+  display: flex;
+}
+
