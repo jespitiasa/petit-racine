@@ -1,0 +1,52 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Ubicación del body */
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.body h1 {
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  /* background-image: url(../public/items/guitarrasfondo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  background-clip: text; */
+}
+
+/* Botón de vaciar carrito */
+.boton2 {
+  background-color: rgb(0, 0, 0);
+  border-color: white;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: fixed;
+}
+
+.boton2:hover {
+  background-color: white;
+  color: black;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  padding: 10px 20px;        /* Agrega espacio alrededor */
+  position: absolute;
+  top: 1.5rem;
+  right: 6rem;
+  z-index: 1000;
+}

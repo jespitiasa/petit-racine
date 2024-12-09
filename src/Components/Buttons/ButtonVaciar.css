@@ -1,0 +1,17 @@
+.botonVaciar {
+    background-color: #303f2a;
+    border-style: none;
+    color: #f5f5fa;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.botonVaciar:hover {
+    background-color: #f5f5fa;
+    color: #303f2a;
+    border-style: solid;
+    border-color: #303f2a;
+}

@@ -1,0 +1,48 @@
+.TarjetaProductos {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5fa;
+    color: #303f2a;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.TarjetaProductos:hover {
+    box-shadow: 0px 8px 10px 5px rgb(0, 0, 0, 0.3);
+
+}
+
+.TarjetaProductos p {
+    font-weight: bolder;
+    margin-top: 0px;
+    color: #303f2a;
+}
+
+.TarjetaProductos img {
+    border-radius: 5px;
+}
+
+.button-detalles {
+    background-color: #303f2a;
+    border-style: none;
+    color: #f5f5fa;
+    margin-top: 4px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-detalles:hover {
+    background-color: white;
+    color: #303f2a;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
