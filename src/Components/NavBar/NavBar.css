@@ -1,4 +1,9 @@
-/* Estilos para el nav bar */
+.logonav{
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: auto;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -48,10 +53,5 @@
     right: 50px;
 }
 
-.logonav{
-    display: flex;
-    align-items: center;
-    width: 70px;
-    height: auto;
-}
+
 

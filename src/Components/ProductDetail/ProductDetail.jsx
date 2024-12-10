@@ -19,7 +19,7 @@ const ProductDetailData = ({ item, fn, TotalCarrito }) => {
                 <p>Descripción: {item.description}</p>
                 <p>Precio: ${item.price}</p>
                 <button className="button-volver">
-                    <Link to="/market">Volver a la tienda</Link>
+                    <Link to="/tienda">Volver a la tienda</Link>
                 </button>
                 <ButtonAgregar text="Agregar al carrito" fn={fn} TotalCarrito={TotalCarrito} />
             </div>

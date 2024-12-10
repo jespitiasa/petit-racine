@@ -14,7 +14,7 @@ const plantas = [
         description: 'Nombre científico: Sedum nussbaumerianum Suculenta con hojas de color amarillo verdoso a rojo cobrizo. Sus tallos color marrón-rojizo sostienen las rosetas. Forma pequeñas flores fragantes de color blanco puro en forma de estrella. Prefiere los suelos ligeros, con buen drenaje.'
     },
     {
-        id: 1,
+        id: 3,
         model: "Suculenta #34",
         price: 28.000,
         img: '/items/suculenta57-600x600.jpg',

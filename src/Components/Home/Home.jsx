@@ -1,6 +1,6 @@
 import './Home.css';
 
-function Home({}) { return(
+function Home() { return(
     <>
         <div className="body">
             <h1>¡Encuentra la matera ideal para tu espacio! 💡🌱</h1>

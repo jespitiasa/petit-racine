@@ -1,4 +1,3 @@
-import React from 'react'
 import { MdOutlineShoppingBag } from "react-icons/md";
 
 const CartWidget = ({TotalCarrito}) => {

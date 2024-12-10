@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './ButtonAgregar.css';
 
 const ButtonAgregar = ({ text, fn, TotalCarrito }) => {
