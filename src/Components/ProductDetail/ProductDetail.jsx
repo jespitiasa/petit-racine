@@ -6,7 +6,6 @@ import ButtonAgregar from "../Buttons/ButtonAgregar";
 import '../ProductDetail/ProductDetail.css';
 import '../ItemListContainer/ItemListContainer'
 
-
 const ProductDetailData = ({ item, fn, TotalCarrito }) => {
     return (
         <div className="main">
@@ -26,8 +25,6 @@ const ProductDetailData = ({ item, fn, TotalCarrito }) => {
         </div>
     );
 };
-
-
 function ProductDetail({ fn, TotalCarrito }) {
     const { id } = useParams();
     const [item, setItem] = useState({});
@@ -46,5 +43,4 @@ function ProductDetail({ fn, TotalCarrito }) {
         </>
     );
 }
-
 export default ProductDetail;
