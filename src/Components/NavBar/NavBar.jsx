@@ -10,6 +10,9 @@ function NavBar({TotalCarrito}) {
                     <Link to="/" className="nav-link">Inicio</Link>
                 </li>
                 <li className="nav-item">
+                    <Link to="/contacto" className="nav-link">Contact</Link>
+                </li>
+                <li className="nav-item">
                     <Link to="/tienda" className="nav-link">Tienda</Link>
                 </li>
             </ul>

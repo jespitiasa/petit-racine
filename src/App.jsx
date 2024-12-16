@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Banner from './components/Banner/Banner';
 import ProductDetail from './components/ProductDetail/ProductDetail'
+import ButtonVaciar from './Components/Buttons/ButtonVaciar';
 
 function App() {
   const [TotalCarrito, setTotalCarrito] = useState(0);
@@ -13,6 +14,10 @@ function App() {
   return (
     <>
       <NavBar TotalCarrito={TotalCarrito} />
+      <div className="header-container">
+        <ButtonVaciar text="Vaciar carrito" fn2={setTotalCarrito} />
+      </div>
+      
       <Routes>
         <Route 
           exact path='/' element={
@@ -26,7 +31,7 @@ function App() {
           <ItemListContainer fn={setTotalCarrito} TotalCarrito={TotalCarrito} />}
         />
         <Route 
-          exact path='/contact' element={
+          exact path='/contacto' element={
           <h1>Página en mantenimiento...</h1>}
         />
         <Route exact path='/product/:id' element={<ProductDetail fn={setTotalCarrito} TotalCarrito={TotalCarrito}/>}/>
