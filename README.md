@@ -38,7 +38,8 @@ En el archivo `.env.example` estan las variables que deben ir para poder llenarl
 
 ## Estructura
 
-![estructura](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2020.26.46.png)
+![estructura FireBase](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2020.26.46.png)
+![estructura src](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2021.08.48.png)
 
 
 ## ScreenShots
