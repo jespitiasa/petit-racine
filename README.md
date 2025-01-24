@@ -44,6 +44,7 @@ En el archivo `.env.example` estan las variables que deben ir para poder llenarl
 
 ## ScreenShots
 
-![image00]()
-![image01]()
-![image02]()
+![image00](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2021.09.44.png)
+![image01](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2021.10.12.png)
+![image02](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2021.10.53.png)
+![image03](https://raw.githubusercontent.com/jespitiasa/petit-racine/main/.github/images/Captura%20de%20Pantalla%202025-01-23%20a%20las%2021.11.16.png)
